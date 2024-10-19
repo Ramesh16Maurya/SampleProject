@@ -1,0 +1,15 @@
+
+.header-main-div{
+    .header-list{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:600px){
+    .header-main-div{
+
+        .header-list{
+            font-size: 14px;
+        }
+    }
+}

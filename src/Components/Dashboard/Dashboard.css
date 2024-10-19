@@ -1,0 +1,37 @@
+.dashboard-main-div {
+    height: 100vh;
+    overflow-x: hidden;
+
+    .dashboard-inner-div {
+        overflow-y: auto;
+    }
+
+
+    .Dashboard-card1 {
+        height: 200px;
+
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 5px grey;
+        border-radius: 5px;
+
+    }
+
+    .Dashboard-card2 {
+        height: 200px;
+
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 5px grey;
+        border-radius: 5px;
+
+
+    }
+
+    .Dashboard-card3 {
+        height: 200px;
+
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 5px grey;
+        border-radius: 5px;
+
+    }
+}

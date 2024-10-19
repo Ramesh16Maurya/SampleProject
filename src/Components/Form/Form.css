@@ -1,0 +1,22 @@
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px; /* Adjust padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+    font-size: 18px;
+    pointer-events: none; /* Prevent icon from interfering with input clicks */
+}
